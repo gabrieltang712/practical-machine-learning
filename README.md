@@ -1,10 +1,12 @@
 # practical-machine-learning
 
-A collection of hands-on machine learning projects focused on implementing and analyzing core algorithms from scratch and with scientific Python tools.
+A collection of hands-on machine learning projects focused on implementing and analyzing core algorithms using scientific Python tools.
 
 The repository explores different learning paradigms through practical experiments in clustering, regression, and classification, with an emphasis on data analysis, visualization, optimization, and model evaluation.
 
 ---
+
+## Projects
 
 ### Unsupervised Learning
 Implementation and exploration of unsupervised learning techniques for discovering hidden structures in data.
@@ -16,10 +18,11 @@ Implementation and exploration of unsupervised learning techniques for discoveri
 - Latent space visualization
 - Cluster evaluation metrics
 
-#### Main objectives
-- Understand data distribution without labels
-- Compare clustering strategies
-- Analyze dimensionality reduction techniques
+#### Datasets
+- French cities climate dataset  
+  (monthly temperatures, geographical information)
+- Handwritten digits dataset  
+  (image clustering and dimensionality reduction tasks)
 
 ---
 
@@ -31,31 +34,35 @@ Experiments focused on predictive modeling for continuous variables using linear
 - Ridge Regression
 - Lasso Regression
 - Gradient descent optimization
-- Polynomial feature engineering
-- Performance evaluation
+- Temporal feature engineering
+- Performance evaluation on time-series signals
 
-#### Main objectives
-- Study bias/variance trade-offs
-- Explore regularization effects
-- Evaluate predictive performance on numerical datasets
+#### Dataset
+- Brain-Computer Interface (BCI) Competition IV — Dataset 4  
+  Electrocorticography (ECoG) signals recorded from epileptic patients performing finger movements.  
+  The objective is to predict thumb flexion from multichannel neural activity recorded at high frequency.
 
 ---
 
 ### Classification
-Implementation and comparison of several supervised classification algorithms on structured datasets.
+Implementation and comparison of supervised classification algorithms on structured and image datasets.
 
 #### Covered topics
+- Linear Discriminant Analysis (LDA)
+- Quadratic Discriminant Analysis (QDA)
 - Logistic Regression
 - Support Vector Machines (SVM)
 - k-Nearest Neighbors (k-NN)
+- Neural Networks (MLP)
+- Random Forests and Gradient Boosting
 - Decision boundary visualization
-- Accuracy / Precision / Recall analysis
-- Confusion matrices
+- Confusion matrix and robustness analysis
 
-#### Main objectives
-- Compare classification algorithms
-- Analyze model generalization
-- Visualize decision regions and feature separation
+#### Datasets
+- Pima Indians Diabetes Dataset  
+  Medical diagnostic dataset used for diabetes prediction from clinical measurements.
+- Handwritten Digits Dataset  
+  Subset of MNIST containing grayscale digit images for multiclass classification tasks.
 
 ---
 
