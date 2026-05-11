@@ -66,7 +66,7 @@ Implementation and comparison of supervised classification algorithms on structu
 
 ---
 
-## Tech Stack
+## Libraires
 
 - Python
 - NumPy
@@ -84,9 +84,3 @@ Implementation and comparison of supervised classification algorithms on structu
 - Build reproducible experimentation workflows
 - Improve understanding of optimization and evaluation techniques
 - Practice scientific computing and data visualization
-
----
-
-## Author
-
-Developed as a personal machine learning practice repository focused on experimentation and algorithmic understanding.
